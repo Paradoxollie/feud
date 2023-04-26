@@ -1,6 +1,6 @@
 ﻿var team1 = window.opener.document.getElementById("team1NAME").value;
 var team2 = window.opener.document.getElementById("team2NAME").value;
-var CurrentRound = 1;
+
 
 var app = {
   version: 1,
