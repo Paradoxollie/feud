@@ -73,9 +73,9 @@ var app = {
     var col1       = app.board.find(".col1")
     var col2       = app.board.find(".col2")
     
-    boardScore.html(0)
+   boardScore.html(0)
     question.html(qText.replace(/&x22;/gi,'"'))
-	col1.empty()
+    col1.empty()
     col2.empty()
 
 	//roundpoints
