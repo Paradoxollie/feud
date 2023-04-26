@@ -74,8 +74,7 @@ var app = {
     var col2       = app.board.find(".col2")
     
     boardScore.html(0)
-    // question.html(qText.replace(/&x22;/gi,'"'))
-    question.html("ROUND " + CurrentRound)
+    question.html(qText.replace(/&x22;/gi,'"'))
 	col1.empty()
     col2.empty()
 
